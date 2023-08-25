@@ -19,3 +19,6 @@ hop_sybils_addr = list(hop_sybils.address)
 connext_addr = list(connext.address)
 
 sybils = set(connext_addr).intersection(set(arb_sybils_addr + hop_sybils_addr))
+
+# Here is connext sybils
+print(sybils)
